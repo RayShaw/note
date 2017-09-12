@@ -1,0 +1,58 @@
+
+body {
+    background-color: #dbdbdb;
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+.note, .add {
+    position: relative;
+    margin: 30px;
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #bfbfbf;
+    background-color: #fafad2;
+    float: left;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.add p {
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.add p.ic_add {
+    font-weight: bold;
+    font-size: 12em;
+    margin: -0.2em;
+}
+
+.note textarea {
+    width: 195px;
+    height: 195px;
+    resize: none;
+    background-color: #fafad2;
+    font-size: 2em;
+}
+
+.close {
+    position: absolute;
+    top: -0.8em;
+    right: -0.8em;
+    width: 1em;
+    height: 1em;
+    padding: 0.3em;
+    background-color: #15B6E7;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.5s ease-in;
+}
+
+.close:hover {
+    transform: rotate(180deg) scale(1.25);
+}
